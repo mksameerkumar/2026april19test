@@ -17,3 +17,6 @@ jobs:
         with:
           name: Final_Document
           path: main.pdf
+on:
+  push:
+  workflow_dispatch: 
